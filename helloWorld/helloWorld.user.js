@@ -1,6 +1,7 @@
 // ==UserScript==
 // @copyright    Copyright IBM Corp. 2017
 //
+// Hello World - TMG
 //
 // @name         helloWorld
 // @version      0.1
@@ -46,7 +47,7 @@ if(typeof(dojo) != "undefined") {
             waitFor( function(){
 			// wait until the "loading..." node has been hidden
 			// indicating that we have loaded content.
-   			dojo.query("span.shareSome-title")[0].textContent="Lisa test 2 -- Hello World ";
+   			dojo.query("span.shareSome-title")[0].textContent="Test this out - Tony!";
        	          },
 		  ".lotusStreamTopLoading div.loaderMain.lotusHidden");
       } catch(e) {
