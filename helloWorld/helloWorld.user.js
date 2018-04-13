@@ -47,7 +47,7 @@ if(typeof(dojo) != "undefined") {
             waitFor( function(){
 			// wait until the "loading..." node has been hidden
 			// indicating that we have loaded content.
-   			dojo.query("span.shareSome-title")[0].textContent="Check this out - Tony!!!";
+   			dojo.query("span.shareSome-title")[0].textContent="Check this out!";
        	          },
 		  ".lotusStreamTopLoading div.loaderMain.lotusHidden");
       } catch(e) {
